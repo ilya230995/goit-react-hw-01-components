@@ -1,0 +1,15 @@
+.history {
+    width: 350px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.transaction:nth-child(odd) {
+    background-color: white;
+}
+.transaction {
+    background-color: rgb(15, 212, 219);
+}
+.row_name {
+    background-color: rgb(12, 109, 112);
+
+}

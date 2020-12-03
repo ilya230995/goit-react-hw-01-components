@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    margin: 20px 0;
+    min-width: 200px;
+}
+.status {
+    margin: 20px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    background: red;
+  }
+  
+  .true {
+    composes: status;
+    margin: 20px;
+    background: green;
+}
